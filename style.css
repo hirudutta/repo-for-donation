@@ -1,0 +1,173 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    color: white;
+    font-size: larger;
+}
+
+.flood-img {
+    height: 800px;
+    width: 1400px;
+    filter: brightness(60%);
+}
+
+.small-text {
+    font-size: 80%;
+
+}
+
+.donate-button {
+    background-color: crimson;
+    border-radius: 7px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+.lets-align {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 90px;
+}
+
+.money {
+    background-color: white;
+    width: 70px;
+    padding: 20px;
+    color: gray;
+    filter: brightness(90%);
+}
+
+.lets-display {
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+#food-color {
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 30px;
+    filter: saturate(30%);
+}
+
+#shelter-color {
+    background-color: beige;
+    padding: 20px;
+    margin: 30px;
+}
+
+#education-color {
+    background-color: yellow;
+    padding: 20px;
+    margin: 30px;
+    filter: saturate(30%);
+}
+
+#make-red {
+    background-color: bisque;
+    width: 70px;
+    padding: 20px;
+    color: red;
+    border-radius: 5px;
+    filter: brightness(90%);
+    border: 2px solid red;
+}
+
+.other-amount {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    border: 3px solid cadetblue;
+}
+
+.amount {
+    text-align: center;
+    color: gray;
+    font-weight: 100;
+}
+
+.box-paragraph {
+    color: gray;
+}
+
+.footer-rebuild {
+    background-color: black;
+    text-align: center;
+    width: 105%;
+    margin-top: 150px;
+}
+
+#color-change {
+    padding-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    color: crimson;
+}
+
+.change-display {
+    display: flex;
+    margin: 80px;
+}
+
+.change-image {
+    height: 350px;
+    width: 450px;
+}
+
+.change-margin {
+    margin: 50px;
+}
+
+.paragraph {
+    color: white;
+}
+
+.form-box {
+    width: 200%;
+    padding: 20px;
+    background-color: rgb(233, 225, 225);
+    border-radius: 5px;
+    border: rgb(233, 225, 225);
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.subscribe-button {
+    background-color: crimson;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: 100;
+    height: 25px;
+    width: 15%;
+    border: crimson;
+    padding-top: 20px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.subscribe-side {
+    background-color: bisque;
+    background-size: cover;
+    height: 250px;
+    width: 70%;
+    margin-left: 190px;
+}
